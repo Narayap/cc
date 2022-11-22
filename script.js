@@ -31,7 +31,7 @@ function showProduct(item) {
   // product name
   copy.querySelector(".product_name").textContent = item.item_id;
 
-//   //   img
+  //   img
 
   copy
     .querySelector("img")
