@@ -307,7 +307,9 @@
      height: 50px;
 
    }
-
+.location{
+  opacity: 0.5;
+}
    button {
      background-color: black;
      border: none;
