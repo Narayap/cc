@@ -8,10 +8,15 @@
     color: white;
     background: #0b25b7;
   }
+  body{
+    background-color: #FBFAFC;
+  }
 nav{
-    width: 93%;
-    height:20px;
+    width: 100%;
+    height:75px;
     z-index: 12;
+    position: fixed;
+    background-color: #FBFAFC;
   }
   nav .menu{
     max-width: 100%;
@@ -21,9 +26,12 @@ nav{
     justify-content: space-between;
     padding: 0 20px;
   }
+  .logo{
+    padding-left: 25px;;
+  }
   .menu ul{
     display: inline-flex;
-    padding-left: 10%;
+    padding-right: 3%;
   }
   .menu ul li{
     list-style: none;
@@ -59,7 +67,7 @@ nav{
 }
 
 .cc-video {
-    margin-top: 5.5rem;
+    margin-top: 3.5rem;
     object-fit: cover;
     width: 100%;
     height: calc(120vh - 4rem);
@@ -127,19 +135,14 @@ nav{
   text-align: center;
 }
 
-
-
 section.entertain{
   text-align:center;
   width: 100%;
-  height: 90%;
   display:block;
   color: #0b25b7;
   font-size: larger;
-  padding: 50px 0px;
+  padding-top: 50px;
   background-color: rgba(215,228,242,1);
-  
-  
 background-position: center;
   background-size: cover;
 }
@@ -156,7 +159,7 @@ section.giftcard{
   color: #0b25b7;
   font-size: 25px;
   display: block;
-  padding: 0px 50px 0px 0px;
+  padding: 0px 30px 0px 0px;
   background-color: rgb(226, 236, 247);
 }
 section.giftcard .gfs{
@@ -164,30 +167,14 @@ section.giftcard .gfs{
   width: 100%;
   grid-template-columns: auto auto;
   justify-content: left;
-  align-items:center;
-  gap: 1em;
+  gap: 3em;
 }
-/*section.giftcard .item1{
-width:
-}*/
+.item2{
+  padding-top: 50px;
+}
 section.giftcard img{
-  width: 40em;
-  
+  width: 25em;
 }
-section.giftcard p{
-  text-align: justify;
-  
-}
-section.giftcard span{
-  font-size: large;
-}
-
-
-
-
-
-
-
 
 .cover {
   background-color: #0b25b7;
@@ -221,17 +208,44 @@ h2 {
   font-size: 60px;
   font-weight: bolder;
   margin-bottom: 0;
+  padding-bottom: 40px;
   font-family: "Brice", sans-serif;
-
 }
-
+h3{
+  color: #0b25b7;
+  font-size: 32px;
+  margin-bottom: 0;
+  font-family: "Satoshi Bold", sans-serif;
+}
+h4{
+  color: #1F1F20;
+  font-size: 32px;
+  margin-bottom: 0;
+  font-family: "Satoshi Bold", sans-serif;
+  padding-left: 5%;
+  padding-top: 30px;
+}
+h5{
+  color: #1F1F20;
+  font-size: 20px;
+  margin-bottom: 0;
+  font-family: "Satoshi", sans-serif;
+  padding-left: 5%;
+  padding-top: 3px;
+}
+h6{
+    color: #D7E4F2;
+    font-size: 38px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    font-family: "Satoshi Bold", sans-serif;
+  }
 p {
   color: #0b25b7;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bolder;
   margin-bottom: 0;
   font-family: "Satoshi", sans-serif;
-
 }
 
 
