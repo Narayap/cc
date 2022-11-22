@@ -409,6 +409,7 @@
    .footerText{
     color: #D7E4F2;
     opacity: 0.6;
+    padding-bottom: 15px;
     font-family: "Satoshi", sans-serif;
     padding-left: 20px;
    }
@@ -421,13 +422,19 @@ margin-bottom:2em;
     width: 30vh;
   }
   .footerSec {
-    font-size: 19px;
+    font-size: 18px;
     color:#D7E4F2;
+    padding-top: 12px;
+    padding-bottom: 10px;
     font-family: "Satoshi Bold", sans-serif;
   }
   .footer ul{
     list-style: none;
     padding-left: 0;
+  }
+  .footer svg{
+    width: 100%;
+    color:#D7E4F2;
   }
   .footer li{
     line-height: 2em;
@@ -446,18 +453,27 @@ margin-bottom:2em;
   }
   .box li{
     color:#D7E4F2;
+    opacity: 0.6;
+    font-family: "Satoshi", sans-serif;
+    font-size: 14px;
+  }
+  .shop li{
+    color:#D7E4F2;
+    opacity: 0.6;
+    font-family: "Satoshi", sans-serif;
+    font-size: 14px;
+  }
+  .aboutus li{
+    color:#D7E4F2;
+    opacity: 0.6;
+    font-family: "Satoshi", sans-serif;
+    font-size: 14px;
   }
   .socials a{
     width:40px;
     height:40px;
     display:inline-block;
     margin-right:10px;
-  }
-  .socials a i{
-    color:#D7E4F2;
-    opacity: 0.8;
-    padding: 10px 12px;
-    font-size: 20px;
   }
 
   @media screen and (min-width: 600px){
