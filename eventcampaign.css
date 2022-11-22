@@ -391,3 +391,36 @@
      width: 260px;
      font-weight: bold;
    }
+   
+   footer{
+    display:-webkit-flex;
+    display: -moz-flex;
+    display:-ms-flex;
+    display:-o-flex;
+    display:flex;
+    flex-flow:row-wrap;
+    padding:50px;
+    color:#D7E4F2;
+    background-color: #1F1F20;
+   }
+   .footer > *{
+    flex: 1 100%;
+   }
+   .footer-left{
+    margin-right:1.25em;
+margin-bottom:2em;
+  }
+  .footer-left img{
+    width:50%;
+  }
+  .footerSec {
+    font-size: 19px;
+  }
+  .footer ul{
+    list-style: none;
+    padding-left: 0;
+  }
+  .footer li{
+    line-height: 2em;
+  }
+  
