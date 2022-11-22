@@ -18,40 +18,31 @@ function handleProductList(data) {
 
 function showProduct(item) {
   console.log(item);
-}
+
   //   grab the template
-//   const template = document.querySelector("#productCard").content;
+  const template = document.querySelector(".product_template").content;
 
-//   //   cloning the template
-//   const copy = template.cloneNode(true);
 
-//   // changing the...
+  //   cloning the template
+  const copy = template.cloneNode(true);
 
-//   // brandname
-//   copy.querySelector(".brandname2").textContent = bike.brand_name;
+  // changing the...
 
-//   // productname
-//   copy.querySelector(".productname").textContent = bike.product_name;
-
-//   // price
-//   copy.querySelector(".price").textContent = `$${bike.price}`;
-
-//   // in_stock
-//   copy.querySelector(".stock").textContent = bike.in_stock;
-
+  // product name
+  copy.querySelector(".product_name").textContent = item.item_id;
 
 //   //   img
 
-//   copy
-//     .querySelector("img")
-//     .setAttribute(
-//       "src",
-//       bike._embedded["wp:featuredmedia"][0].media_details.sizes.full
-//         .source_url
-//     );
+  copy
+    .querySelector("img")
+    .setAttribute(
+      "src",
+      item.picture["guid"]
+    );
 
-//   // grab parent
-//   const parent = document.querySelector(".productlist_container");
+   // grab parent
+   const parent = document.querySelector(".productlist_container");
 
-//   // append
-//   parent.appendChild(copy);
+   // append
+   parent.appendChild(copy);
+}
