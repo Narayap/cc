@@ -92,11 +92,11 @@
 .wrapper {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 0px;
-  grid-auto-rows: minmax(10px, auto);
+  grid-auto-rows: minmax(1px, auto);
+  padding-left: 4%;
   justify-content: center;
   align-items: center;
-  padding-bottom: 5rem;
+  padding-bottom: 4.5rem;
 }
 
 .container {
@@ -256,7 +256,7 @@ section.entertain div{
    h5 {
      color: #1F1F20;
      font-size: 20px;
-     margin-bottom: 0;
+     margin-bottom: 1.5%;
      font-family: "Satoshi", sans-serif;
      padding-left: 5%;
      padding-top: 3px;
