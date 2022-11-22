@@ -357,3 +357,26 @@ button {
   max-width: 100%;
   border-radius: 2%;
 }
+
+#c2a_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.c2a_btn {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 74px;
+  width: 250px;
+  font-weight: bold;
+}
