@@ -363,6 +363,8 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  gap: 3rem;
 }
 
 .c2a_btn {
@@ -379,4 +381,7 @@ button {
   border-radius: 74px;
   width: 250px;
   font-weight: bold;
+  
+
 }
+
