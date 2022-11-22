@@ -1,9 +1,4 @@
-
-  
-  
-  
-  
-  *{
+   *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,39 +8,22 @@
     color: white;
     background: #0b25b7;
   }
-
-
-
 nav{
-    
-    width: 100%;
-    padding: 10px 0;
+    width: 93%;
+    height:20px;
     z-index: 12;
   }
   nav .menu{
-    max-width: 1250px;
+    max-width: 100%;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
   }
-  
-  .header-logo {
-    top: 0rem;
-    height: 100px;
-   
-  }
-  
-  .header-logo>img {
-    height: 100px;
-    
-  }
-  
-  
-  
   .menu ul{
     display: inline-flex;
+    padding-left: 10%;
   }
   .menu ul li{
     list-style: none;
@@ -57,7 +35,7 @@ nav{
   .menu ul li a{
     text-decoration: none;
     color: #0b25b7;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     padding: 8px 15px;
     border-radius: 5px;
@@ -67,15 +45,10 @@ nav{
     background: #0b25b7;
     color: white;
   }
-
   
-
- 
-  
-
 
   .cc {
-    height: 80vh;
+    height: 90vh;
     display: grid;
     grid-template-columns: repeat(var(--columns), 1fr);
     column-gap: var(--gutter);
@@ -86,10 +59,10 @@ nav{
 }
 
 .cc-video {
-    margin-top: 10rem;
+    margin-top: 5.5rem;
     object-fit: cover;
     width: 100%;
-    height: calc(100vh - 4rem);
+    height: calc(120vh - 4rem);
     position: absolute;
     top: 0;
     left: 0;
@@ -97,34 +70,15 @@ nav{
 
 }
 
-
-
-
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 0px;
   grid-auto-rows: minmax(100px, auto);
   justify-content: center;
   align-items: center;
   
 }
-.one {
-  grid-column: 1 ;
- 
-}
-.two {
-  grid-column: 2 ;
-
-}
-.three {
-  grid-column: 3;
-  
-}
-
-
-
-
 
 .container {
   position: relative;
@@ -132,13 +86,11 @@ nav{
   margin-top: 50px;
   margin-bottom: 50px;
   width: 80%;
-  
-  
 }
 
 .image {
   display: block;
-  width: 60%;
+  width: 50%;
   height: auto;
   border-radius: 30px;
   margin-left: 10%;
@@ -165,7 +117,7 @@ nav{
 
 .text {
   color: #FFCE00;
-  font-size: 20px;
+  font-size: 12px;
   position: absolute;
   top: 50%;
   left: 50%;
