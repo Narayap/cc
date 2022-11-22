@@ -290,3 +290,52 @@ button {
   transform: translateY(-2px);
   box-shadow: -1px 8px 16px 0px #11171f;
 }
+/* Collection Styling */
+
+/* This will give the padding same as CC's own */
+#collection_container {
+  padding: 5.6rem 5.6rem;
+}
+
+#collection_name {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.produclist_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+}
+
+.product_img {
+  max-width: 100%;
+  border-radius: 2%;
+}
+
+#c2a_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 3rem;
+}
+
+.c2a_btn {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 74px;
+  width: 250px;
+  font-weight: bold;
+
+}
